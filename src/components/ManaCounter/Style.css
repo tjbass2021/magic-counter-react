@@ -1,0 +1,96 @@
+:root{
+    --red: #ea3f24;
+    --blue: #361ae6;
+    --green: #3d7b31;
+    --black: #191919;
+}
+
+
+h4 {
+    padding: 20px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#container-mana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#botoes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 200px;
+}
+
+.botoes {
+    margin: 1px;
+}
+
+
+
+.red {
+    background: var(--red);;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.green {
+    background: var(--green);;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.blue {
+    background: var(--blue);;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.black {
+    background: var(--black);;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.white {
+    background: white;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+}
+
+.nocolor {
+    background: rgba(250, 250, 250, 30%);
+    border: 1px solid white;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    color: white;
+}

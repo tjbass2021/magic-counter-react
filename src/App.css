@@ -1,5 +1,29 @@
+h1 {
+    position: fixed;
+    top: 5px;
+    margin-bottom: 20px;
+}
+
+#button {
+    position: fixed;
+    top: 80px;
+    right: 0;
+    transform: rotate(90deg);
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+}
+
+.rotate {
+    transform: rotate(180deg);
 }
 
 .App-logo {
