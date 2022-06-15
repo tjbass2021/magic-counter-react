@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ManaCounter from '../ManaCounter/ManaCounter';
 
 // style
 
@@ -27,17 +28,21 @@ const Tela = () => {
         };
     }
     return(
-        <div id="container">
-            <div className="buttons">
-                <button id="add" onClick={add}><p>+1</p></button>
-                <button id="sub" onClick={sub}><p>-1</p></button>
+        <>
+            <div id="container">
+                <div className="buttons">
+                    <button id="add" onClick={add}><p>+1</p></button>
+                    <button id="sub" onClick={sub}><p>-1</p></button>
+                </div>
+                <div id="visor"><p>{visor}</p></div>
+                <div className="buttons">
+                    <button id="add5" onClick={add5}><p>+5</p></button>
+                    <button id="sub5" onClick={sub5}><p>-5</p></button>
+                </div>
             </div>
-            <div id="visor"><p>{visor}</p></div>
-            <div className="buttons">
-                <button id="add5" onClick={add5}><p>+5</p></button>
-                <button id="sub5" onClick={sub5}><p>-5</p></button>
-            </div>
-        </div>
+            <ManaCounter />
+        </>
+
     );
 }
 

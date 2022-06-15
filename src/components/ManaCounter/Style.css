@@ -19,17 +19,18 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 #botoes {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    max-width: 200px;
 }
 
 .botoes {
-    margin: 10px;
+    margin: 1px;
 }
 
 
@@ -39,8 +40,8 @@ button {
     margin: 3px;
     padding: 5px;
     border-radius: 100%;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     color: white;
 }
 
@@ -49,8 +50,8 @@ button {
     margin: 3px;
     padding: 5px;
     border-radius: 100%;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     color: white;
 }
 
@@ -59,8 +60,8 @@ button {
     margin: 3px;
     padding: 5px;
     border-radius: 100%;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     color: white;
 }
 
@@ -69,8 +70,8 @@ button {
     margin: 3px;
     padding: 5px;
     border-radius: 100%;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     color: white;
 }
 
@@ -79,8 +80,8 @@ button {
     margin: 3px;
     padding: 5px;
     border-radius: 100%;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
 }
 
 .nocolor {
@@ -89,7 +90,7 @@ button {
     margin: 3px;
     padding: 5px;
     border-radius: 100%;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     color: white;
 }

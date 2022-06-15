@@ -40,5 +40,10 @@ code {
 
 footer {
     position: fixed;
-    bottom: 20px;
+    bottom: 5px;
+}
+
+footer a {
+    color: var(--purple-light);
+    text-decoration: none;
 }

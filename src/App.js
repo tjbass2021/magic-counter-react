@@ -1,7 +1,6 @@
 import './App.css';
 import { useState } from 'react';
 import Tela from './components/Tela/Tela';
-import ManaCounter from './components/ManaCounter/ManaCounter';
 
 function App() {
     const [condition, setCondition] = useState(true);
@@ -15,11 +14,11 @@ function App() {
   return (
     <div className="App">
         <h1>Counter MTG</h1>
+        <button id="button" onClick={modifierCondition}>Players Number</button>
 
         {condition === true ? (
             <div>
                 <Tela />
-                <ManaCounter />
             </div>
         ) : (
             <div>
@@ -32,7 +31,6 @@ function App() {
             </div>
         )}
 
-        <button onClick={modifierCondition}>Telas</button>
     </div>
   );
 }
