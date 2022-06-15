@@ -1,5 +1,9 @@
 import { useState } from 'react';
 
+// style
+
+import './Style.css';
+
 const ManaCounter = () => {
     const [red, setRed] = useState(0);
     const [blue, setBlue] = useState(0);
@@ -17,8 +21,10 @@ const ManaCounter = () => {
         }
     }
     return(
-        <div>
+        <div id="container-mana">
             <h4>Mana Counter</h4>
+            <div id="botoes">
+
             <div className="botoes">
                 <button className="red" onClick={() => setRed(addMana(red))}>{red}</button>
 
@@ -48,6 +54,7 @@ const ManaCounter = () => {
                 <button className="nocolor" onClick={() => setNoColor(addMana(nocolor))}>{nocolor}</button>
 
                 <button className="nocolor" onClick={() => setNoColor(subMana(nocolor))}>-</button>
+            </div>
             </div>
         </div>
     );

@@ -1,5 +1,9 @@
 import { useState } from 'react';
 
+// style
+
+import './Style.css';
+
 const Tela = () => {
     let [visor, setVisor] = useState(20);
     const add = () => {
@@ -23,15 +27,15 @@ const Tela = () => {
         };
     }
     return(
-        <div>
+        <div id="container">
             <div className="buttons">
-                <button id="add" onClick={add}>+1</button>
-                <button id="sub" onClick={sub}>-1</button>
+                <button id="add" onClick={add}><p>+1</p></button>
+                <button id="sub" onClick={sub}><p>-1</p></button>
             </div>
-            <div id="visor">{visor}</div>
+            <div id="visor"><p>{visor}</p></div>
             <div className="buttons">
-                <button id="add5" onClick={add5}>+5</button>
-                <button id="sub5" onClick={sub5}>-5</button>
+                <button id="add5" onClick={add5}><p>+5</p></button>
+                <button id="sub5" onClick={sub5}><p>-5</p></button>
             </div>
         </div>
     );
